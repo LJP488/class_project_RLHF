@@ -21,3 +21,7 @@ tree medical
     |-- test.json  
     |-- train.json  
     -- valid.json  
+
+  代码借鉴部分说明
+  在reward文件中，in[33],in[34],in[36]代码借鉴自 https://github.com/lansinuote/Simple_RLHF/blob/main/2.critic.ipynb  
+  在PPO文件中，
