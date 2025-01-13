@@ -22,6 +22,7 @@ tree medical
     |-- train.json  
     -- valid.json  
 
-  代码借鉴部分说明
-  在reward文件中，in[33],in[34],in[36]代码借鉴自 https://github.com/lansinuote/Simple_RLHF/blob/main/2.critic.ipynb  
-  在PPO文件中，
+代码借鉴部分说明  
+在reward文件中，in[33],in[34],in[36]代码借鉴自 https://github.com/lansinuote/Simple_RLHF/blob/main/2.critic.ipynb  
+在PPO文件中，in 4~13部分代码借鉴自https://github.com/liucongg/ChatGPTBook/blob/main/RLHFProj/PPO/train.py
+其中由于操作失误，原先PPO训练结果没能保存下来，故看到PPO中仅有跑90代的结果，实际上模型结果为PPO跑3000+代的结果。  
