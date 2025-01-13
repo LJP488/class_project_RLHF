@@ -9,7 +9,7 @@ tree medical
 |   |-- train_en_1.json  
 |   |-- train_zh_0.json  
 |   |-- valid_en_1.json  
-|   `-- valid_zh_0.json  
+|   `-- valid_zh_0.json    
 |-- medical.py # hf dataset 数据展示用  
 |-- pretrain # 二次预训练数据集  
 |   |-- medical_book_zh.json  
